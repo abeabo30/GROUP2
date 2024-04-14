@@ -204,11 +204,8 @@ footer{
 }
 .footer {
   display: flex;
-  flex-wrap: wrap;
 }
 .footer .footer-left, .footer-center, .footer-right {
-  flex-grow: 1;
-  flex-basis: 200;
   text-align: justify;
   margin-left: 80px;
   margin-bottom: 10px;
@@ -388,6 +385,17 @@ nav .navbar .links li .sub-menu li{
 }
     .navbar .nav-links.show2 .links .more-arrow{
       transform: rotate(90deg);
+    }
+    .footer {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .footer .footer-left, .footer-center, .footer-right {
+      flex-grow: 1;
+      flex-basis: 200;
+      text-align: justify;
+      margin-left: 80px;
+      margin-bottom: 10px;
     }
 }
 @media (max-width:370px){
