@@ -204,13 +204,16 @@ footer{
 }
 .footer {
   display: flex;
+  flex-wrap: wrap;
 }
 .footer .footer-left, .footer-center, .footer-right {
-  flex: 1;
+  flex-grow: 1;
+  flex-basis: 200;
   text-align: justify;
+  margin-left: 80px;
+  margin-bottom: 10px;
 }
 .footer-center{
-  margin-left: 200px;
   line-height: 30px;
 
 }
@@ -223,7 +226,6 @@ footer{
   color: white;  
 }
 .footer-right {
-  margin-left: 100px;
   line-height: 30px;
 }
 
