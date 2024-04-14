@@ -185,7 +185,7 @@ nav .navbar .links li:hover .js-sub-menu{
 }
 /*-----------------------------------------------------------CONTENTS----------------------------------------------------------*/
 
-.active:active{
+a:active{
   text-decoration: underline;
 }
 .background img{
