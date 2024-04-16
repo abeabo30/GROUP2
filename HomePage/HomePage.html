@@ -2,9 +2,8 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8">
-    <title> Responsive Drop Down Navigation Menu | CodingLab </title>
+    <title> Kraftastic | Homepage </title>
     <link rel="stylesheet" href="style.css">
-    <!-- Boxicons CDN Link -->
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <script src="https://kit.fontawesome.com/87256e6e49.js" crossorigin="anonymous"></script>
@@ -16,34 +15,40 @@
      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0">
      <script src="script.js" defer></script>
    </head>
-<body>
+<body id="top">
   <nav>
     <div class="navbar">
       <i class='bx bx-menu'></i>
-      <div class="logo"><a href="#"><img src="logo1.png" alt=""></a></div>
+      <div class="logo"><a href="HomePage.html"><img src="logo1.png" alt=""></a></div>
       <div class="nav-links">
         <div class="sidebar-logo">
           <span class="logo-name"><img src="logo1.png" alt=""></span>
           <i class='bx bx-x' ></i>
         </div>
         <ul class="links">
-          <li><a href="#">Education</a></li>
           <li>
-            <a href="#">Fashion</a>
+            <a href="#">Education</a>
+            <i class='bx bxs-chevron-down js-arrow arrow '></i>
+            <ul class="js-sub-menu sub-menu">
+              <li><a href="#">The Green DIY</a></li>
+              <li><a href="#">Learn the Basics</a></li>
+              <li><a href="#">Level Up Your Skills</a></li>
+              <li><a href="#">Project Inspiration</a></li>
+              <li><a href="#">DIY on a Budget</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="../Fashion/DIY FASHION/GROUP2_FASHION.HTML">Fashion</a>
             <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
             <ul class="htmlCss-sub-menu sub-menu">
-              <li><a href="#">Web Design</a></li>
-              <li><a href="#">Login Forms</a></li>
-              <li><a href="#">Card Design</a></li>
+              <li><a href="../Fashion/GREEN DIY/GreenDiy.html">The Green DIY</a></li>
+              <li><a href="#">Learn the Basics</a></li>
+              <li><a href="../Fashion/FASHION PROJECT INSPIRATION/ProjectInspiration.html">Project Inspiration</a></li>
+              <li><a href="#">DIY on a Budget</a></li>
               <li class="more">
-                <span><a href="#">More</a>
+              <span><a href="#">More</a>
                 <i class='bx bxs-chevron-right arrow more-arrow'></i>
               </span>
-                <ul class="more-sub-menu sub-menu">
-                  <li><a href="#">Neumorphism</a></li>
-                  <li><a href="#">Pre-loader</a></li>
-                  <li><a href="#">Glassmorphism</a></li>
-                </ul>
               </li>
             </ul>
           </li>
@@ -51,14 +56,25 @@
             <a href="#">Home</a>
             <i class='bx bxs-chevron-down js-arrow arrow '></i>
             <ul class="js-sub-menu sub-menu">
-              <li><a href="#">Dynamic Clock</a></li>
-              <li><a href="#">Form Validation</a></li>
-              <li><a href="#">Card Slider</a></li>
-              <li><a href="#">Complete Website</a></li>
+              <li><a href="#">The Green DIY</a></li>
+              <li><a href="#">Learn the Basics</a></li>
+              <li><a href="#">Level Up Your Skills</a></li>
+              <li><a href="#">Project Inspiration</a></li>
+              <li><a href="#">DIY on a Budget</a></li>
             </ul>
           </li>
-          <li><a href="#">Pets</a></li>
-          <li><a href="#">About Us</a></li>
+          <li>
+            <a href="#">Pets</a>
+            <i class='bx bxs-chevron-down js-arrow arrow '></i>
+            <ul class="js-sub-menu sub-menu">
+              <li><a href="#">The Green DIY</a></li>
+              <li><a href="#">Learn the Basics</a></li>
+              <li><a href="#">Level Up Your Skills</a></li>
+              <li><a href="#">Project Inspiration</a></li>
+              <li><a href="#">DIY on a Budget</a></li>
+            </ul>
+          </li>
+          <li><a href="../AboutUS/ABOUT US THE TEAM YEAH/index.html">About Us</a></li>
         </ul>
       </div>
       <div class="search-box">
@@ -76,7 +92,7 @@
             <p id="box-one-p">At Kraftastic, we're all about 
             celebrating craftsmanship excellence. Our name signifies our commitment to showcasing impeccably crafted DIY projects.</p>
         <div class="know-about-us-box">    
-            <a href="page1.html">
+            <a href="../AboutUS/ABOUT US THE TEAM YEAH/index.html">
                 <span id="know-about-us-box-h2">Know About Us</span>
                 <span id="icon"> 
                     <i class="fa-solid fa-arrow-right"></i> 
@@ -84,8 +100,8 @@
             </a>
         </div>
       </div>
-        <img src="image 286.png" alt="image-one" class="top-image-one">
-        <img src="image 287.png" alt="image-two" class="top-image-two">
+        <img src="aboutus1.jpg" alt="image-one" class="top-image-one">
+        <img src="aboutus2.jpg" alt="image-two" class="top-image-two">
     </div>
 
     <div class="bottom-box">
@@ -102,26 +118,26 @@
           </button>
           <ul class="image-list">
             <div class="image-container">
-              <a href="page1.html">
-                    <img class="image-item" src="images/img-1.jpg" alt="img-1" />
+              <a href="#">
+                    <img class="image-item" src="images/pets.png" alt="img-1" />
                     <div class="image-text">Pet</div>
               </a>
             </div>
             <div class="image-container">
-              <a href="page1.html">
-                    <img class="image-item" src="images/img-2.jpg" alt="img-2" />
+              <a href="../Fashion/DIY FASHION/GROUP2_FASHION.HTML">
+                    <img class="image-item" src="images/fashion.png" alt="img-2" />
                     <div class="image-text">Fashion</div>
               </a>
             </div>
             <div class="image-container">
-              <a href="page1.html">
-                    <img class="image-item" src="images/img-1.jpg" alt="img-1" />
+              <a href="#">
+                    <img class="image-item" src="images/education.png" alt="img-1" />
                     <div class="image-text">Education</div>
               </a>
             </div>
             <div class="image-container">
-              <a href="page1.html">
-                    <img class="image-item" src="images/img-1.jpg" alt="img-1" />
+              <a href="#">
+                    <img class="image-item" src="images/home.png" alt="img-1" />
                     <div class="image-text">Home</div>
               </a>
             </div>
@@ -143,148 +159,150 @@
     <div class="container-two">
         <div class="section-header">
             <h2>Featured Fashion DIYs</h2>
-            <a href="page1.html">
+            <a href="../Fashion/DIY FASHION/GROUP2_FASHION.HTML">
                 <i class="fa-solid fa-circle-arrow-right"></i>
             </a>
         </div>
         <p class="short-header">Your Essentials Guide to Diy Projects from home repairs to creative crafts</p> 
         <div class="container-two-images">  
-            <a href="page1.html">
-                <img src="image 286.png" alt="image-one" class="container-two-image">
+            <a href="../Fashion/beginner/DIY CONTENT ( tie dye shirt-esc)/content.html">
+                <img src="dyeshirt.png" alt="image-one" class="container-two-image">
                 <div class="image-title">
-                    <h2>Personalized<br> Patchwork</h3>
-                    <h6>by: Juan Dela Cruz </h6>
+                    <h2>How to Tie Dye your Shirt</h2>
+                    <h6>by: Instructables</h6>
                 </div>
             </a>
-            <a href="page2.html">
-                <img src="image 287.png" alt="image-two" class="container-two-image">
+            <a href="../Fashion/intermediate/DIY_CONTENT_NEW_PAIR_OF_JEANS/DIY CONTENT/content.html">
+                <img src="jeans.png" alt="image-two" class="container-two-image">
                 <div class="image-title">
-                    <h2>Personalized<br> Patchwork</h3>
-                    <h6>by: Juan Dela Cruz </h6>
+                    <h2>New pair of Jeans</h2>
+                    <h6>by: Instructables</h6>
                 </div>
             </a>
-            <a href="page3.html">
-                <img src="image 286.png" alt="image-one" class="container-two-image">
+            <a href="../Fashion/beginner/MUSCLE SHIRT/content.html">
+                <img src="muscle.png" alt="image-one" class="container-two-image">
                 <div class="image-title">
-                    <h2>Personalized<br> Patchwork</h3>
-                    <h6>by: Juan Dela Cruz </h6>
+                    <h2>Muscle Shirt</h2>
+                    <h6>by: wikiHow</h6>
                 </div>
             </a>
-            <a href="page4.html">
-                <img src="image 287.png" alt="image-two" class="container-two-image">
+            <a href="../Fashion/beginner/DIY CONTENT ( veggie shirt-esc)/content.html">
+                <img src="veggie.png" alt="image-two" class="container-two-image">
                 <div class="image-title">
-                    <h2>Personalized<br> Patchwork</h3>
-                    <h6>by: Juan Dela Cruz </h6>
+                    <h2>Veggie Shirt</h2>
+                    <h6>by: Instructables</h6>
                 </div>
             </a>
         </div>
         <div class="section-header">
             <h2>Featured Education DIYs</h2>
-            <a href="page1.html">
+            <a href="#">
                 <i class="fa-solid fa-circle-arrow-right"></i>
             </a>
         </div>
         <p class="short-header">Your Essentials Guide to Diy Projects from home repairs to creative crafts</p> 
         <div class="container-two-images">
-            <a href="page1.html">
-                <img src="image 286.png" alt="image-one" class="container-two-image">
+            <a href="#">
+                <img src="toothpaste.png" alt="image-one" class="container-two-image">
                 <div class="image-title">
-                    <h2>Personalized<br> Patchwork</h3>
-                    <h6>by: Juan Dela Cruz </h6>
+                    <h2>How to Make <br>Elephant Toothpaste</h2>
+                    <h6>by: Ana Dziengel</h6>
                 </div>
             </a>
-            <a href="page2.html">
-                <img src="image 287.png" alt="image-two" class="container-two-image">
+            <a href="#">
+                <img src="slime.png" alt="image-two" class="container-two-image">
                 <div class="image-title">
-                    <h2>Personalized<br> Patchwork</h3>
-                    <h6>by: Juan Dela Cruz </h6>
+                    <h2>How to Make <br>Slime</h2>
+                    <h6>by: Ana Dziengel</h6>
                     </div>
             </a>
-            <a href="page3.html">
-                <img src="image 286.png" alt="image-one" class="container-two-image">
+            <a href="#">
+                <img src="compass.png" alt="image-one" class="container-two-image">
                 <div class="image-title">
-                    <h2>Personalized<br> Patchwork</h3>
-                    <h6>by: Juan Dela Cruz </h6>
+                    <h2>How To Make <br>A Compass</h2>
+                    <h6>by: Shelley Brewer</h6>
                 </div>
             </a>
-            <a href="page4.html">
-                <img src="image 287.png" alt="image-two" class="container-two-image">
+            <a href="#">
+                <img src="cord.png" alt="image-two" class="container-two-image">
                 <div class="image-title">
-                    <h2>Personalized<br> Patchwork</h3>
-                    <h6>by: Juan Dela Cruz </h6>
+                    <h2>DIY Cord <br>Organizer</h2>
+                    <h6>by: DIY Candy</h6>
                 </div>
             </a>
         </div>
+
         <div class="section-header">
             <h2>Featured Home DIYs</h2>
-            <a href="page1.html">
+            <a href="#">
                 <i class="fa-solid fa-circle-arrow-right"></i>
             </a>
         </div>
         <p class="short-header">Your Essentials Guide to Diy Projects from home repairs to creative crafts</p> 
         <div class="container-two-images">
-            <a href="page1.html">
-                <img src="image 286.png" alt="image-one" class="container-two-image">
+            <a href="#">
+                <img src="pillows.png" alt="image-one" class="container-two-image">
                 <div class="image-title">
-                    <h2>Personalized<br> Patchwork</h3>
-                    <h6>by: Juan Dela Cruz </h6>
+                    <h2>Customized Accent <br>Pillows</h2>
+                    <h6>by: TheTurquoiseHome </h6>
                 </div>
             </a>
-            <a href="page2.html">
-                <img src="image 287.png" alt="image-two" class="container-two-image">
+            <a href="#">
+                <img src="shelves.png" alt="image-two" class="container-two-image">
                 <div class="image-title">
-                    <h2>Personalized<br> Patchwork</h3>
-                    <h6>by: Juan Dela Cruz </h6>
+                    <h2>Custom DIY <br>storage shelves</h2>
+                    <h6>by: Har.com </h6>
                 </div>
             </a>
-            <a href="page3.html">
-                <img src="image 286.png" alt="image-one" class="container-two-image">
+            <a href="#">
+                <img src="lightbulb.png" alt="image-one" class="container-two-image">
                 <div class="image-title">
-                    <h2>Personalized<br> Patchwork</h3>
-                    <h6>by: Juan Dela Cruz </h6>
+                    <h2>Change light <br>bulb fixture</h2>
+                    <h6>by: Gelighting </h6>
                 </div>
-            </a>
-            <a href="page4.html">
-                <img src="image 287.png" alt="image-two" class="container-two-image">
+            </a> 
+            <a href="#">
+                <img src="faucet.png" alt="image-two" class="container-two-image">
                 <div class="image-title">
-                    <h2>Personalized<br> Patchwork</h3>
-                    <h6>by: Juan Dela Cruz </h6>
+                    <h2>Repairing Leaky <br> faucet </h2>
+                    <h6>by: HowStuffWorks </h6>
                 </div>
             </a>
         </div>
+
         <div class="section-header">
             <h2>Featured Pet DIYs</h2>
-            <a href="page1.html">
+            <a href="#">
                 <i class="fa-solid fa-circle-arrow-right"></i>
             </a>
         </div>
         <p class="short-header">Your Essentials Guide to Diy Projects from home repairs to creative crafts</p> 
         <div class="container-two-images">
-            <a href="page1.html">
-                <img src="image 286.png" alt="image-one" class="container-two-image">
+            <a href="#">
+                <img src="treats.png" alt="image-one" class="container-two-image">
                 <div class="image-title">
-                    <h2>Personalized<br> Patchwork</h3>
+                    <h2>DIY Dog Treats</h3>
                     <h6>by: Juan Dela Cruz </h6>
             </div>
             </a>
-            <a href="page2.html">
-                <img src="image 287.png" alt="image-two" class="container-two-image">
+            <a href="#">
+                <img src="toys.png" alt="image-two" class="container-two-image">
                 <div class="image-title">
-                    <h2>Personalized<br> Patchwork</h3>
+                    <h2>DIY Dog Toys</h3>
                     <h6>by: Juan Dela Cruz </h6>
                 </div>
             </a>
-            <a href="page3.html">
-                <img src="image 286.png" alt="image-one" class="container-two-image">
+            <a href="#">
+                <img src="feeders.png" alt="image-one" class="container-two-image">
                 <div class="image-title">
-                    <h2>Personalized<br> Patchwork</h3>
+                    <h2>DIY Pet Feeders</h3>
                     <h6>by: Juan Dela Cruz </h6>
                 </div>
             </a>
-            <a href="page4.html">
-                <img src="image 287.png" alt="image-two" class="container-two-image">
+            <a href="#">
+                <img src="waste.png" alt="image-two" class="container-two-image">
                 <div class="image-title">
-                    <h2>Personalized<br> Patchwork</h3>
+                    <h2>DIY waste disposal</h3>
                     <h6>by: Juan Dela Cruz </h6>
                 </div>
             </a>
@@ -292,41 +310,41 @@
     </div>
 </div>
 
-  <footer>
-    <div class="gotop">
-      <a href="#top">
-          <img src="gototop.png" alt="Go to top" width="150px">
-      </a>
+<footer>
+  <div class="gotop">
+    <a href="#top">
+        <img src="gototop.png" alt="Go to top" width="150px">
+    </a>
+  </div>
+  <div class="footer">
+    <div class="footer-left">
+        <img src="logo1.png" alt="Kraftastic Logo">
+        <p>Kraftastic is your ultimate destination for all things crafty and creative. Kraftastic is here to guide and inspire you on your creative journey.</p>
     </div>
-    <div class="footer">
-      <div class="footer-left">
-          <img src="logo1.png" alt="Kraftastic Logo">
-          <p>Kraftastic is your ultimate destination for all things crafty and creative. Kraftastic is here to guide and inspire you on your creative journey.</p>
-      </div>
-      <div class="footer-center">
-          <h3>Our Services</h3>
-          <ul>
-              <li><a href="#">Education</a></li>
-              <li><a href="#">Fashion</a></li>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Pets</a></li>
-              <li><a href="#">About Us</a></li>
-          </ul>
-      </div>
-      <div class="footer-right">
-          <h3>Follow Us</h3>
-          <ul>
-            <li><a href="#"><img src="facebook.png" alt="Facebook"><span>Facebook</span></a></li>
-            <li><a href="#"><img src="instagram.png" alt="Instagram"><span>Instagram</span></a></li>
-            <li><a href="#"><img src="twitter.png" alt="Twitter"><span>Twitter</span></a></li>
+    <div class="footer-center">
+        <h3>Our Services</h3>
+        <ul>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Fashion</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Pets</a></li>
+            <li><a href="#">About Us</a></li>
         </ul>
-      </div>
     </div>
-    <div class="buttom">
-      <hr width="100%" size="1" >
-      <p>© 2024 Kraftastic Group, Inc. All Rights Reserved.</p>
+    <div class="footer-right">
+        <h3>Follow Us</h3>
+        <ul>
+          <li><a href="#"><img src="facebook.png" alt="Facebook"><span>Facebook</span></a></li>
+          <li><a href="#"><img src="instagram.png" alt="Instagram"><span>Instagram</span></a></li>
+          <li><a href="#"><img src="twitter.png" alt="Twitter"><span>Twitter</span></a></li>
+      </ul>
     </div>
-  </footer>
+  </div>
+  <div class="buttom">
+    <hr width="100%" size="1" color="white">
+    <p>© 2024 Kraftastic Group, Inc. All Rights Reserved.</p>
+  </div>
+</footer>
   <script src="script.js"></script>
 
 </body>
